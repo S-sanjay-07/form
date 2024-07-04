@@ -1,0 +1,95 @@
+body{
+    background: rgb(167,65,110);
+    background: linear-gradient(0deg, rgba(167,65,110,1) 0%, rgba(229,173,244,1) 44%, rgba(13,91,219,1) 94%, rgba(148,187,233,1) 100%);
+background-attachment: fixed;
+margin: 0%;
+
+}
+#form{
+    width:400px;
+    margin:20vh auto;
+    background: rgb(244, 233, 238);
+    background: linear-gradient(0deg, rgb(229, 217, 217) 0%, rgba(229,173,244,1) 44%, rgb(150, 183, 236) 94%, rgba(148,187,233,1) 100%);    border-radius: 5px;
+    padding: 30px;
+   
+}
+h1{
+    text-align: center;
+    color: rgb(78, 75, 251);
+}
+#button{
+    background: rgba(235, 91, 179, 0.721);
+    color: rgb(238, 238, 206);
+    border: 1px solid black;
+    padding:10px ;
+    border-radius: 5px;
+    margin: 20px 0px;
+cursor:pointer;
+font-size: 20px;
+width: 100%;
+
+}
+.inputgroup{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.inputgroup input{
+    border-radius: 5px;
+    font-size: 13px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid palevioletred;
+}
+.inputgroup input:focus{
+    outline: 0;
+}
+.error{
+    color: red;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.inputgroup.success input{
+    border-color: greenyellow;
+}
+.inputgroup.error input{
+    border-color: red;
+}
+.success{
+    border-radius: 35px;
+    background: linear-gradient(145deg, #e7e3e3, #c2bfbf);
+    box-shadow:  16px 16px 32px #797777,
+                 -16px -16px 32px #ffffff;
+    padding: 20px;
+    max-width: 50vh;
+    color:deeppink;
+    background: white;
+    text-align: center;
+}
+.body{
+    margin-left: 80vh;
+    margin: 25vh;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
